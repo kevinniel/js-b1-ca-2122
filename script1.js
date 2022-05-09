@@ -1,3 +1,7 @@
+// var = global = accessible partout dans le code
+// let = portée bloc
+// const = comme le "let" = MAIS = pour les tableaux et fonctions et objets
+
 var nom;
 var prenom;
 var telephone;
