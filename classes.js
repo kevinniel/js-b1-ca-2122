@@ -11,9 +11,17 @@ class Crayon {
 
     // méthodes (fonctionnalités)
     constructor(couleur, poid) {
+        this.toto(couleur, poid);
+        console.log("crayon créé");
+    }
+
+    toto(couleur, poid) {
+        this.tata(couleur, poid)
+    }
+    
+    tata(couleur, poid) {
         this.couleur = couleur
         this.poid = poid
-        console.log("crayon créé");
     }
 
     decapuchoner () {
